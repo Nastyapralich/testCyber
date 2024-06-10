@@ -1,21 +1,18 @@
 {
   "name": "testcyber-1",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+     "build": "parcel build"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+   "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0",
-    "sass": "^1.42.1",
-    "scss": "^0.2.4"
-  },
-  "dependencies": {
-    "parcel": "^2.12.0",
-    "sass": "^1.77.4",
-    "scss": "^0.2.4"
+    "prettier": "^3.2.5",
+    "sass": "^1.71.1"
   }
 }
